@@ -19,7 +19,7 @@ INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, nivea
 VALUES (1, 'etape1', 'latitude1', 'longitude1','Paris', 1);
 
 INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, niveau_confort) 
-VALUES (2, 'etape2', 'latitude2', 'longitude2','Orleans', 2);
+VALUES (2, 'etape2', 'latitude2', 'longitude2','Feur', 2);
 
 INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, niveau_confort) 
 VALUES (3, 'etape3', 'latitude3', 'longitude3','Orleans', 3);
