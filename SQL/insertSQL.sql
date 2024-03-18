@@ -15,25 +15,25 @@ INSERT INTO CATEGORIE (id_Categorie, nom_Cat, description_Cat)
 VALUES (3, 'Categorie 3', 'Description de la catégorie 3');
 
 -- Insertion dans la table ETAPE
-INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude, niveau_confort) 
-VALUES (1, 'etape1', 'latitude1', 'longitude1', 1);
+INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, niveau_confort) 
+VALUES (1, 'etape1', 'latitude1', 'longitude1','Paris', 1);
 
-INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude, niveau_confort) 
-VALUES (2, 'etape2', 'latitude2', 'longitude2', 2);
+INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, niveau_confort) 
+VALUES (2, 'etape2', 'latitude2', 'longitude2','Orleans', 2);
 
-INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude, niveau_confort) 
-VALUES (3, 'etape3', 'latitude3', 'longitude3', 3);
+INSERT INTO ETAPE (code_Etape, nom_etape, latitude, longitude,ville_etape, niveau_confort) 
+VALUES (3, 'etape3', 'latitude3', 'longitude3','Orleans', 3);
 
 
 -- Insertion dans la table TRONCONS
-INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol, ville_tr, etape_depart, etape_arrivee) 
-VALUES (1, 'Troncon 1', 10, 'Sol 1', 'Orleans', 1, 2);
+INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol, etape_depart, etape_arrivee) 
+VALUES (1, 'Troncon 1', 10, 'Sol 1',  1, 2);
 
-INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol, ville_tr, etape_depart, etape_arrivee) 
-VALUES (2, 'Troncon 2', 8, 'Sol 2', 'Paris', 2, 3);
+INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol,  etape_depart, etape_arrivee) 
+VALUES (2, 'Troncon 2', 8, 'Sol 2', 2, 3);
 
-INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol, ville_tr, etape_depart, etape_arrivee) 
-VALUES (3, 'Troncon 3', 12, 'Sol 3', 'Orleans', 3, 1);
+INSERT INTO TRONCONS (id_Tr, nom_Tr, distance, Type_Sol, etape_depart, etape_arrivee) 
+VALUES (3, 'Troncon 3', 12, 'Sol 3', 3, 1);
 -- Insertion dans la table CONTENIR
 INSERT INTO CONTENIR (id_Parcours, id_Tr) VALUES (1, 1);
 INSERT INTO CONTENIR (id_Parcours, id_Tr) VALUES (1, 2);
